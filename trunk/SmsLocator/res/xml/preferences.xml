@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="Sms Sos Listener">
+
+		<EditTextPreference android:key="SmsLocatorPreferenceSos"
+			android:title="What SOS Message To Listen For" android:summary="This is the exact SMS text that the application will listen for"
+			android:defaultValue="SOS"/>
+			
+			
+
+	</PreferenceCategory>
+
+
+</PreferenceScreen>
